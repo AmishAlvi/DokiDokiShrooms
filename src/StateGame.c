@@ -12,7 +12,7 @@ UINT8 collision_tiles[] = {1,0};
 void START() {
 	INIT_HUD(hud);
 	scroll_target = SpriteManagerAdd(SpritePlayer, 50, 50);
-	SpriteManagerAdd(SpriteMush, 80, 50);
+	SpriteManagerAdd(SpriteMush, 70, 50);
 	InitScroll(BANK(map), &map, collision_tiles, 0);
 }
 
